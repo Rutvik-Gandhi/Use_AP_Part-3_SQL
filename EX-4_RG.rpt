@@ -1,0 +1,169 @@
+﻿W23 PROG8080 Section 3
+Exercise 4
+ 
+Rutvik Gandhi
+ 
+Mar 27 2023 12:28PM
+ 
+*** Question 1 ***
+ 
+
+(122 rows affected)
+Number of rows in VendorCopyRG
+------------------------------
+122
+
+(1 row affected)
+
+*** Question 2 ***
+ 
+
+(15 rows affected)
+Number of rows in InvoiceBalancesRG
+-----------------------------------
+15
+
+(1 row affected)
+
+*** Question 3 ***
+ 
+
+(1 row affected)
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+119         86          4591178                                            2022-09-01  9345.60               0.00                  0.00                  1           2022-10-01     NULL
+
+(1 row affected)
+
+*** Question 4 ***
+ 
+
+(1 row affected)
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+120         30          COSTCO345                                          2023-03-27  2800.00               0.00                  0.00                  1           2023-04-26     NULL
+
+(1 row affected)
+
+*** Question 5 ***
+ 
+
+(1 row affected)
+InvoiceID   VendorID    InvoiceNumber                                      InvoiceDate InvoiceTotal          PaymentTotal          CreditTotal           TermsID     InvoiceDueDate PaymentDate
+----------- ----------- -------------------------------------------------- ----------- --------------------- --------------------- --------------------- ----------- -------------- -----------
+120         30          COSTCO345                                          2023-03-27  2800.00               0.00                  300.00                1           2023-04-26     NULL
+
+(1 row affected)
+
+*** Question 6 ***
+ 
+
+(5 rows affected)
+InvoiceID   InvoiceNumber                                      VendorID    InvoiceTotal          CreditTotal
+----------- -------------------------------------------------- ----------- --------------------- ---------------------
+89          39104                                              72          85.31                 0.00
+94          963253264                                          123         52.25                 0.00
+98          31361833                                           83          579.42                0.00
+99          263253268                                          123         59.97                 0.00
+100         263253270                                          123         67.92                 0.00
+101         263253273                                          123         30.75                 0.00
+102         P-0608                                             110         20551.18              1290.00
+105         9982771                                            106         503.20                0.00
+110         134116                                             80          90.36                 0.00
+112         0-2436                                             110         10976.06              90.00
+113         547480102                                          37          224.00                0.00
+115         ZXA-080                                            34          14092.59              90.00
+116         ZXA-080                                            34          14092.59              90.00
+117         ZXA-080                                            34          14092.59              90.00
+118         ZXA-080                                            34          14092.59              0.00
+119         4591178                                            86          9345.60               0.00
+120         COSTCO345                                          30          2800.00               300.00
+
+(17 rows affected)
+
+*** Question 7 ***
+ 
+
+(1 row affected)
+InvoiceID   InvoiceNumber                                      VendorID    InvoiceTotal          CreditTotal
+----------- -------------------------------------------------- ----------- --------------------- ---------------------
+89          39104                                              72          85.31                 0.00
+94          963253264                                          123         52.25                 0.00
+98          31361833                                           83          579.42                0.00
+99          263253268                                          123         59.97                 0.00
+100         263253270                                          123         67.92                 0.00
+101         263253273                                          123         30.75                 0.00
+102         P-0608                                             110         20551.18              1290.00
+105         9982771                                            106         503.20                0.00
+110         134116                                             80          90.36                 0.00
+112         0-2436                                             110         10976.06              90.00
+113         547480102                                          37          224.00                0.00
+115         ZXA-080                                            34          14092.59              90.00
+116         ZXA-080                                            34          14092.59              90.00
+117         ZXA-080                                            34          14092.59              90.00
+118         ZXA-080                                            34          14092.59              0.00
+120         COSTCO345                                          30          2800.00               300.00
+
+(16 rows affected)
+
+*** Question 8 ***
+ 
+VendorCopyRG Before Delete
+--------------------------
+122
+
+(1 row affected)
+
+(113 rows affected)
+
+VendorCopyRG After Delete
+-------------------------
+9
+
+(1 row affected)
+
+*** Question 9 ***
+ 
+
+(4 rows affected)
+More invoices than expected. Deletions rolled back.
+Number of FedEx invoices
+------------------------
+4
+
+(1 row affected)
+
+*** Question 10 ***
+ 
+Number of Invoices
+------------------
+118
+
+(1 row affected)
+
+Number of InvoiceLineItems
+--------------------------
+126
+
+(1 row affected)
+
+
+(1 row affected)
+
+(1 row affected)
+
+(1 row affected)
+Number of Invoices
+------------------
+119
+
+(1 row affected)
+
+Number of InvoiceLineItems
+--------------------------
+128
+
+(1 row affected)
+
+
+Completion time: 2023-03-27T12:28:39.3550658-04:00
